@@ -5,7 +5,7 @@ from minerutils.auth import MinerWithAuthentication
 
 class Travis(MinerWithAuthentication):
     
-    root = "http://api.travis-ci.org/"
+    root = "http://api.travis-ci.com"
 
     def __init__(self, token=None):
         super(Travis, self).__init__(None, token)
